@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Status on A minimal Hugo website</title>
+		<link>https://example.org/tags/status/</link>
+		<description>Recent content in Status on A minimal Hugo website</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 18 Nov 2025 14:31:41 +0600</lastBuildDate>
+		
+			<atom:link href="https://example.org/tags/status/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>labs.iximiuz.com</title>
+				<link>https://example.org/status/labs.iximiuz.com/</link>
+				<pubDate>Tue, 18 Nov 2025 14:31:41 +0600</pubDate>
+				<guid>https://example.org/status/labs.iximiuz.com/</guid>
+				<description>&lt;p&gt;Solve challenges here: &lt;a href=&#34;https://labs.iximiuz.com/challenges&#34;&gt;https://labs.iximiuz.com/challenges&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Discrete Math</title>
+				<link>https://example.org/status/discrete-math/</link>
+				<pubDate>Tue, 18 Nov 2025 06:33:40 +0600</pubDate>
+				<guid>https://example.org/status/discrete-math/</guid>
+				<description>&lt;p&gt;Gotta check this out! &lt;a href=&#34;https://www.codecademy.com/courses/discrete-math&#34;&gt;Course&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Forgot Math</title>
+				<link>https://example.org/status/forgot-math/</link>
+				<pubDate>Tue, 18 Nov 2025 01:26:24 +0600</pubDate>
+				<guid>https://example.org/status/forgot-math/</guid>
+				<description>&lt;p&gt;I forgot all the math, I need to fix that. I can&amp;rsquo;t let this happen to me!&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

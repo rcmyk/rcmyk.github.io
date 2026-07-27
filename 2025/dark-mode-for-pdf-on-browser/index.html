@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dark mode for PDF on browser | A minimal Hugo website</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link id="chroma-theme" rel="stylesheet" href="/css/syntax-light.css" />
+
+<script>
+(function() {
+  const theme = localStorage.getItem("theme") || 
+                (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  const link = document.getElementById("chroma-theme");
+  if (theme === "dark") {
+    link.href = "\/css\/syntax-dark.css";
+  }
+})();
+</script>
+
+  </head>
+
+  <body>
+	<nav class="nav-bar">
+	  <ul class="menu">
+		
+		  <li><a href="/">Home</a></li>
+		
+		  <li><a href="/about/">About</a></li>
+		
+		  <li><a href="/categories/">Categories</a></li>
+		
+		  <li><a href="/tags/">Tags</a></li>
+		
+		  <li><a href="/index.xml">Subscribe</a></li>
+		
+	  </ul>
+
+	  <button id="theme-toggle" aria-label="Toggle dark/light theme">
+		<svg id="theme-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+		  
+		  <circle cx="12" cy="12" r="5"></circle>
+		  <line x1="12" y1="1" x2="12" y2="3"></line>
+		  <line x1="12" y1="21" x2="12" y2="23"></line>
+		  <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+		  <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+		  <line x1="1" y1="12" x2="3" y2="12"></line>
+		  <line x1="21" y1="12" x2="23" y2="12"></line>
+		  <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+		  <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+		</svg>
+	  </button>
+	</nav>
+
+	<hr/>
+
+	<script>
+	(function() {
+	  const root = document.documentElement;
+	  const toggleBtn = document.getElementById("theme-toggle");
+	  const icon = document.getElementById("theme-icon");
+
+	  
+	  const savedTheme = localStorage.getItem("theme");
+	  const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+	  const current = savedTheme || (systemPrefersDark ? "dark" : "light");
+	  root.setAttribute("data-theme", current);
+	  setIcon(current);
+
+	  
+	  toggleBtn.addEventListener("click", () => {
+		const newTheme = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+		const chromaLink = document.getElementById("chroma-theme");
+		if (newTheme === "dark") {
+		  chromaLink.href = "/css/syntax-dark.css";
+		} else {
+		  chromaLink.href = "/css/syntax-light.css";
+		}
+		root.setAttribute("data-theme", newTheme);
+		localStorage.setItem("theme", newTheme);
+		setIcon(newTheme);
+	  });
+
+	  
+	  function setIcon(theme) {
+		if (theme === "dark") {
+		  icon.innerHTML = `
+			<path d="M21 12.79A9 9 0 1 1 11.21 3
+					 7 7 0 0 0 21 12.79z"></path>`;
+		} else {
+		  icon.innerHTML = `
+			<circle cx="12" cy="12" r="5"></circle>
+			<line x1="12" y1="1" x2="12" y2="3"></line>
+			<line x1="12" y1="21" x2="12" y2="23"></line>
+			<line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+			<line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+			<line x1="1" y1="12" x2="3" y2="12"></line>
+			<line x1="21" y1="12" x2="23" y2="12"></line>
+			<line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+			<line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>`;
+		}
+	  }
+	})();
+	</script>
+
+<div class="article-meta">
+<h1><span class="title">Dark mode for PDF on browser</span></h1>
+<h2 class="author">rcmyk</h2>
+<h2 class="date"><time datetime="2025-11-20T03:51:58&#43;06:00">Nov 20, 2025</time></h2>
+</div>
+
+<main>
+<p>Open pdf in browser. I&rsquo;ve tested it on chrome. Then paste this in console. And
+enter. boom! 💥</p>
+<p><a href="https://superuser.com/a/1527417">Source</a></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">overlay</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s2">&#34;div&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">css</span> <span class="o">=</span> <span class="sb">`
+</span></span></span><span class="line"><span class="cl"><span class="sb">    position: fixed;
+</span></span></span><span class="line"><span class="cl"><span class="sb">    pointer-events: none;
+</span></span></span><span class="line"><span class="cl"><span class="sb">    top: 0;
+</span></span></span><span class="line"><span class="cl"><span class="sb">    left: 0;
+</span></span></span><span class="line"><span class="cl"><span class="sb">    width: 100vw;
+</span></span></span><span class="line"><span class="cl"><span class="sb">    height: 100vh;
+</span></span></span><span class="line"><span class="cl"><span class="sb">    background-color: white;
+</span></span></span><span class="line"><span class="cl"><span class="sb">    mix-blend-mode: difference;
+</span></span></span><span class="line"><span class="cl"><span class="sb">    z-index: 1;
+</span></span></span><span class="line"><span class="cl"><span class="sb">`</span>
+</span></span><span class="line"><span class="cl"><span class="nx">overlay</span><span class="p">.</span><span class="nx">setAttribute</span><span class="p">(</span><span class="s2">&#34;style&#34;</span><span class="p">,</span> <span class="nx">css</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">overlay</span><span class="p">);</span>
+</span></span></code></pre></div>
+</main>
+
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/math-code.min.js" defer></script>
+<script src="//cdn.jsdelivr.net/npm/katex/dist/katex.min.js" defer></script>
+<script src="//cdn.jsdelivr.net/npm/katex/dist/contrib/auto-render.min.js" defer></script>
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/render-katex.js" defer></script>
+
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/center-img.min.js" defer></script>
+
+  <footer>
+  
+  <hr/>
+  <div class="footer-content">© <a href="https://rcmyk.github.io">rcmyk</a> 2024 &ndash; 2026 | <a href="https://github.com/rcmyk">github</a></div>
+  
+  </footer>
+  </body>
+</html>
+

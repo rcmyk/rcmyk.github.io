@@ -1,0 +1,257 @@
+/* =========================================
+   Reset
+   ========================================= */
+*, *::before, *::after { box-sizing: border-box; }
+
+/* =========================================
+   Theme Colors
+   Light : soft warm "paper" palette
+   Dark  : Tokyo Night–inspired palette
+   ========================================= */
+
+/* --- Light theme (warm off-white) --- */
+:root {
+  --bg-color: #faf9f6;            /* warm off-white, easier than pure white */
+  --text-color: #3a3a38;          /* warm dark gray, softer than black */
+  --accent-bg: #f1efe9;           /* slightly darker warm for menus/code */
+  --border-color: #e2ded3;        /* muted warm border */
+  --link-color: #5b7ea3;          /* muted steel blue */
+  --link-hover: #3d5a80;          /* deeper blue */
+  --blockquote-bg: #f5f3ed;
+  --blockquote-border: #c9a96e;   /* soft warm gold accent */
+  --menu-bg: #f1efe9;
+  --menu-hover-bg: #e7e3d8;
+  --menu-text: #3a3a38;
+  --muted-color: #8a8478;        /* warm gray for secondary text (dates, byline) */
+}
+
+
+/* --- Dark theme (Tokyo Night) --- */
+[data-theme="dark"] {
+  --bg-color: #1a1b26;            /* deep blue-dark, not harsh */
+  --text-color: #c0caf5;          /* soft blue-white */
+  --accent-bg: #24283b;           /* slightly lighter panel */
+  --border-color: #3b4261;        /* muted blue-gray border */
+  --link-color: #7aa2f7;          /* tokyo night blue */
+  --link-hover: #bb9af7;          /* tokyo night purple */
+  --blockquote-bg: #1f2335;
+  --blockquote-border: #9d7cd8;   /* soft purple accent */
+  --menu-bg: #24283b;
+  --menu-hover-bg: #3b4261;
+  --menu-text: #c0caf5;
+  --muted-color: #a9b1d6;        /* soft dim text for secondary info */
+}
+
+
+/* =========================================
+   Global Styles using variables
+   ========================================= */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  max-width: 800px;
+  margin: auto;
+  padding: 1em;
+  line-height: 1.6;
+  transition: background-color 0.3s, color 0.3s;
+  /* sticky footer: body fills the viewport and footer is pushed to the bottom */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+	font-size: 1.825rem;
+	margin: 0;
+}
+
+/* byline (author / date on a post) */
+.author, .date {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--muted-color);
+  margin: 0.35em 0 0;
+  display: inline-block;
+}
+/* separator only when a date follows an author */
+.author + .date::before {
+  content: '·';
+  margin: 0 0.4em;
+}
+
+/* post list (home / section index) */
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.25em 0;
+}
+.post-item {
+  display: flex;
+  align-items: baseline;
+  gap: 1em;
+  padding: 0.15em 0;
+}
+/* fixed date column so titles line up neatly */
+.post-item .date {
+  flex: 0 0 7em;
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+}
+.post-item a { border-bottom: 1px dashed transparent; }
+.post-item a:hover { border-bottom-color: var(--link-hover); }
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: start; /* center all items horizontally */
+  gap: 0.75em;
+  flex-wrap: wrap; /* wrap if small screen */
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--link-color);
+  transition: color 0.2s, border-color 0.2s;
+}
+
+a:hover {
+  color: var(--link-hover);
+  border-bottom-color: var(--link-hover);
+}
+
+a:visited {
+  color: var(--link-color);
+}
+
+a:focus-visible {
+  outline: 2px dashed var(--link-hover);
+  outline-offset: 2px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 1.25em;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.menu a {
+  color: var(--menu-text);
+  border-bottom: none;
+  transition: color 0.2s;
+}
+
+.menu a:hover {
+  color: var(--link-hover);
+  border-bottom-color: transparent;
+}
+
+
+
+/* header and footer areas */
+.article-meta {
+  text-decoration: none;
+  background: var(--accent-bg);
+  padding: 5px;
+  border-radius: 5px;
+}
+.article-meta, footer { text-align: center; }
+.title { font-size: 1.1em; }
+
+/* footer sits at the bottom of the page even when content is short */
+footer {
+  margin-top: auto;
+  padding-top: 1.5em;
+}
+footer hr { margin-bottom: 1em; }
+.footer-content {
+  font-size: 0.85rem;
+  color: var(--muted-color);
+}
+.footer-content p { margin: 0; }
+.footer-content a {
+  color: var(--muted-color);
+  border-bottom: none;
+  transition: color 0.2s;
+}
+.footer-content a:hover {
+  color: var(--link-hover);
+  border-bottom-color: transparent;
+}
+
+hr {
+  border-style: dashed;
+  color: var(--border-color);
+}
+
+/* code */
+pre {
+  background-color: var(--accent-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  /* box-shadow: 5px 5px 5px var(--accent-bg); */
+  padding: 1em;
+  overflow-x: auto;
+}
+/* blend chroma-highlighted blocks with the theme (beats .chroma bg) */
+pre.chroma {
+  background-color: var(--accent-bg);
+}
+code {
+  background: var(--blockquote-bg);
+  padding: 0.15em 0.35em;
+  border-radius: 4px;
+}
+pre code { background: none; padding: 0; border-radius: 0; }
+
+/* misc elements */
+img, iframe, video { max-width: 100%; }
+main { hyphens: auto; }
+
+blockquote {
+  background: var(--blockquote-bg);
+  border-left: 5px solid var(--blockquote-border);
+  padding: 3px 1em 3px;
+}
+
+table {
+  margin: auto;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+table thead th { border-bottom: 1px solid var(--border-color); }
+th, td { padding: 5px; }
+thead, tfoot, tr:nth-child(even) { background: var(--accent-bg); }
+
+
+#theme-toggle {
+  background: none;
+  border: none;
+  color: var(--menu-text);
+  padding: 2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  transition: color 0.2s;
+}
+
+#theme-toggle:hover {
+  color: var(--link-hover);
+}
+
+#theme-toggle:focus-visible {
+  outline: 2px dashed var(--link-hover);
+  outline-offset: 2px;
+}
+
+#theme-icon {
+  width: 1rem;
+  height: 1rem;
+  vertical-align: middle;
+}

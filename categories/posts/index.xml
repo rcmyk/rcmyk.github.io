@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on A minimal Hugo website</title>
+		<link>https://example.org/categories/posts/</link>
+		<description>Recent content in Posts on A minimal Hugo website</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 27 Jul 2026 08:20:48 +0600</lastBuildDate>
+		
+			<atom:link href="https://example.org/categories/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>More Leetcode Problems</title>
+				<link>https://example.org/2026/more-leetcode-problems/</link>
+				<pubDate>Mon, 27 Jul 2026 08:20:48 +0600</pubDate>
+				<guid>https://example.org/2026/more-leetcode-problems/</guid>
+				<description>&lt;p&gt;Yeah! Solving more leedcode. Gotta solve even more.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The New World</title>
+				<link>https://example.org/2026/the-new-world/</link>
+				<pubDate>Mon, 27 Jul 2026 08:04:23 +0600</pubDate>
+				<guid>https://example.org/2026/the-new-world/</guid>
+				<description>&lt;p&gt;The new world order is coming. But what does that even mean? Do I know it? I don&amp;rsquo;t think so. I am confused. But the new world order is coming. You won&amp;rsquo;t have to wait that much.&lt;/p&gt;&#xA;&lt;p&gt;What are we investing in right now? Are we doing anything meaningful right now? What&amp;rsquo;s the point? Are we doing everything correctly? There&amp;rsquo;s the confusion, doubt you name it. You can look into everything, something is not right. Is it the AI? Is it the rise of LLMs? Or is it the unnecessary war between US and it&amp;rsquo;s allies vs Iran? Or is it about the oil/gas price hike?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Try Things Out</title>
+				<link>https://example.org/2026/try-things-out/</link>
+				<pubDate>Tue, 06 Jan 2026 02:15:16 +0600</pubDate>
+				<guid>https://example.org/2026/try-things-out/</guid>
+				<description>&lt;p&gt;It&amp;rsquo;s important to try things out. You don’t need to be successful. Rather, it’ll give you a new perspective.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Is It Working</title>
+				<link>https://example.org/2025/is-it-working/</link>
+				<pubDate>Thu, 18 Dec 2025 01:01:08 +0600</pubDate>
+				<guid>https://example.org/2025/is-it-working/</guid>
+				<description>&lt;p&gt;Is it even working? Are you sure?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Things Are Actually Difficult</title>
+				<link>https://example.org/2025/things-are-actually-difficult/</link>
+				<pubDate>Thu, 11 Dec 2025 22:41:17 +0600</pubDate>
+				<guid>https://example.org/2025/things-are-actually-difficult/</guid>
+				<description>&lt;p&gt;Things are actually quite difficult. As we move through the civilization and new&#xA;discovery our life becomes more and more sophisticated. We&amp;rsquo;re building and creating&#xA;things at astonishing speed. Keeping up with this is not easy! We need to work&#xA;harder than ever. But the payout is not always great. Sacrificing friend, family&#xA;and all the things just to work hard doesn&amp;rsquo;t make sense most of the time. Yet&#xA;here we are some of us just doing exactly that to survive. I think it&amp;rsquo;s not the right&#xA;way to live a life. It&amp;rsquo;s becoming too much. We need to strategize things a bit!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Solve iximiuz challenges</title>
+				<link>https://example.org/2025/solve-iximiuz-challenges/</link>
+				<pubDate>Fri, 05 Dec 2025 03:33:49 +0600</pubDate>
+				<guid>https://example.org/2025/solve-iximiuz-challenges/</guid>
+				<description>&lt;p&gt;I gotta solve the challenges on &lt;a href=&#34;https://labs.iximiuz.com/&#34;&gt;&lt;code&gt;labs.iximiuz.com&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>React Native Debug</title>
+				<link>https://example.org/2025/react-native-debug/</link>
+				<pubDate>Fri, 05 Dec 2025 03:17:31 +0600</pubDate>
+				<guid>https://example.org/2025/react-native-debug/</guid>
+				<description>&lt;p&gt;So I had to execute some native code inside a React Native application that uses Expo, but none of the methods seemed to work properly. Because the packages and libraries hadn’t been updated, they didn’t work well with the current Expo SDK version. I don’t know much about mobile application development, but while debugging and searching for solutions, I realized there’s a lot I can learn about it.&lt;/p&gt;&#xA;&lt;p&gt;Eventually, we settled on using gomobile, which builds an XCFramework for iOS and an AAR file for Android, along with the corresponding bindings. Then we’ll patch some packages and use JSON-RPC to achieve what we were trying to do. I spent two days debugging the issue and learned quite a lot in the process.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Earthquake</title>
+				<link>https://example.org/2025/earthquake/</link>
+				<pubDate>Fri, 21 Nov 2025 10:39:26 +0600</pubDate>
+				<guid>https://example.org/2025/earthquake/</guid>
+				<description>&lt;p&gt;Experienced the most terrifying earthquake in my whole fucking life!!!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Dark mode for PDF on browser</title>
+				<link>https://example.org/2025/dark-mode-for-pdf-on-browser/</link>
+				<pubDate>Thu, 20 Nov 2025 03:51:58 +0600</pubDate>
+				<guid>https://example.org/2025/dark-mode-for-pdf-on-browser/</guid>
+				<description>&lt;p&gt;Open pdf in browser. I&amp;rsquo;ve tested it on chrome. Then paste this in console. And&#xA;enter. boom! 💥&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://superuser.com/a/1527417&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;overlay&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;createElement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;div&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;css&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;sb&#34;&gt;`&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;    position: fixed;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;    pointer-events: none;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;    top: 0;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;    left: 0;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;    width: 100vw;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;    height: 100vh;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;    background-color: white;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;    mix-blend-mode: difference;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;    z-index: 1;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;overlay&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;setAttribute&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;style&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;css&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;appendChild&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;overlay&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+			</item>
+			<item>
+				<title>Backlogs</title>
+				<link>https://example.org/2025/backlogs/</link>
+				<pubDate>Wed, 19 Nov 2025 00:12:15 +0600</pubDate>
+				<guid>https://example.org/2025/backlogs/</guid>
+				<description>&lt;p&gt;It&amp;rsquo;s always better to not delay things. For example when you&amp;rsquo;re studying for&#xA;god&amp;rsquo;s sake please do study. Don&amp;rsquo;t skip topics. If you do this long enough this&#xA;will feel like real burden, and there will be lots of dependency to swim through.&#xA;Like to learn Y you need to learn X first. But you&amp;rsquo;ve skipped X. And that&amp;rsquo;s the&#xA;problem. So to handle the abysmal situation you must not skip things&amp;hellip;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Cloudflare Down</title>
+				<link>https://example.org/2025/cloudflare-down/</link>
+				<pubDate>Tue, 18 Nov 2025 20:44:33 +0600</pubDate>
+				<guid>https://example.org/2025/cloudflare-down/</guid>
+				<description>&lt;p&gt;Holy shit! Cloudflare down!!! X.com not working and some other sites as well.&#xA;Event chatgpt, stackoverflow all are failing to load. Ah! Sweet global outage!!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Why Freaking Fever</title>
+				<link>https://example.org/2025/why-freaking-fever/</link>
+				<pubDate>Mon, 17 Nov 2025 22:33:02 +0600</pubDate>
+				<guid>https://example.org/2025/why-freaking-fever/</guid>
+				<description>&lt;p&gt;Got hit with fever. I mean I&amp;rsquo;m not sure though. But it sure feels like it. I&#xA;mean to say I&amp;rsquo;m feeling feverish.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>How do you create multi line spoiler segment?</title>
+				<link>https://example.org/2025/how-do-you-create-multi-line-spoiler-segment/</link>
+				<pubDate>Mon, 17 Nov 2025 03:04:43 +0600</pubDate>
+				<guid>https://example.org/2025/how-do-you-create-multi-line-spoiler-segment/</guid>
+				<description>&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;&#xA;&lt;details&gt;&#xA;&lt;summary style=&#34;cursor: pointer&#34;&gt;&#xA;What is the output here?&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ts&#34; data-lang=&#34;ts&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;PrintHello() {&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello, World!\n&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/summary&gt;&#xA;&lt;h2 id=&#34;answer&#34;&gt;Answer&lt;/h2&gt;&#xA;&lt;p&gt;Gotcha! You never called the function.&lt;/p&gt;&#xA;&lt;/details&gt;&#xA;&lt;h3 id=&#34;this-is-the-code-used-to-render-the-previous-block&#34;&gt;This is the code used to render the previous block&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;details&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;summary style=&amp;#34;cursor: pointer&amp;#34;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;What is the output here?&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;```ts&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;PrintHello() {&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello, World!\n&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;```&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;/summary&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;## Answer&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Gotcha! You never called the function.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;/details&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+			</item>
+	</channel>
+</rss>

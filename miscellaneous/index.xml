@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Miscellaneouses on A minimal Hugo website</title>
+		<link>https://example.org/miscellaneous/</link>
+		<description>Recent content in Miscellaneouses on A minimal Hugo website</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 17 Nov 2025 02:35:45 +0600</lastBuildDate>
+		
+			<atom:link href="https://example.org/miscellaneous/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Ask for Help</title>
+				<link>https://example.org/miscellaneous/ask-for-help/</link>
+				<pubDate>Mon, 17 Nov 2025 02:35:45 +0600</pubDate>
+				<guid>https://example.org/miscellaneous/ask-for-help/</guid>
+				<description>&lt;p&gt;One thing people sometimes forget you can always ask for external help. It&amp;rsquo;s not&#xA;always necessary to come up with a solution yourself. If you feel like you&amp;rsquo;re&#xA;stuck in something, then it&amp;rsquo;s worth asking for help from the experienced one.&#xA;It&amp;rsquo;s necessary and essential to learn how to ask for help. And another thing to&#xA;master is handle rejection. We all are not very good with rejection. But you&#xA;gotta learn&amp;hellip;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Biggest Problem</title>
+				<link>https://example.org/miscellaneous/the-biggest-problem/</link>
+				<pubDate>Mon, 17 Nov 2025 01:39:07 +0600</pubDate>
+				<guid>https://example.org/miscellaneous/the-biggest-problem/</guid>
+				<description>&lt;h2 id=&#34;the-biggest-problem&#34;&gt;The biggest problem&lt;/h2&gt;&#xA;&lt;p&gt;Nothing is being done. No improvement. Nothing. That&amp;rsquo;s the biggest problem&#xA;right now. We must fix that.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

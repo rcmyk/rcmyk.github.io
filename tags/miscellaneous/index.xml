@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Miscellaneous on A minimal Hugo website</title>
+		<link>https://example.org/tags/miscellaneous/</link>
+		<description>Recent content in Miscellaneous on A minimal Hugo website</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 17 Nov 2025 02:35:45 +0600</lastBuildDate>
+		
+			<atom:link href="https://example.org/tags/miscellaneous/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Ask for Help</title>
+				<link>https://example.org/miscellaneous/ask-for-help/</link>
+				<pubDate>Mon, 17 Nov 2025 02:35:45 +0600</pubDate>
+				<guid>https://example.org/miscellaneous/ask-for-help/</guid>
+				<description>&lt;p&gt;One thing people sometimes forget you can always ask for external help. It&amp;rsquo;s not&#xA;always necessary to come up with a solution yourself. If you feel like you&amp;rsquo;re&#xA;stuck in something, then it&amp;rsquo;s worth asking for help from the experienced one.&#xA;It&amp;rsquo;s necessary and essential to learn how to ask for help. And another thing to&#xA;master is handle rejection. We all are not very good with rejection. But you&#xA;gotta learn&amp;hellip;&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
